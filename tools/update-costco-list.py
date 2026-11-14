@@ -9,7 +9,8 @@ What it does:
      sitemap_lw_p_mod_001.xml). These are plain XML files that load with
      a normal HTTP GET — no rate-limiting seen so far.
   2. Extracts bullion product URLs (gold-bar | silver-bar | gold-coin |
-     silver-coin | bullion | silver-round | gold-round) while excluding
+     silver-coin | bullion | silver-round | gold-round | platinum-bar |
+     platinum-coin | platinum-round) while excluding
      jewelry noise (14kt | 18kt | 22kt | 24kt | diamond | bracelet |
      hoop | earring | pendant | necklace).
   3. Diffs the product IDs against the current costco-watch-list.json.
@@ -58,7 +59,7 @@ USER_AGENT = (
 FETCH_GAP_S = 12
 
 BULLION_RE = re.compile(
-    r"gold-bar|silver-bar|gold-coin|silver-coin|bullion|silver-round|gold-round",
+    r"gold-bar|silver-bar|gold-coin|silver-coin|bullion|silver-round|gold-round|platinum-bar|platinum-coin|platinum-round",
     re.IGNORECASE,
 )
 NOISE_RE = re.compile(
@@ -150,12 +151,14 @@ def verify_candidate(pid, sitemap_url):
     if not sku:
         return None, "no ProductSchema/sku on page"
     low = (final_url + " " + (name or "")).lower()
-    if "gold" in low:
+    if "platinum" in low:
+        metal = "platinum"
+    elif "gold" in low:
         metal = "gold"
     elif "silver" in low:
         metal = "silver"
     else:
-        return None, "metal unclear (not gold/silver)"
+        return None, "metal unclear (not gold/silver/platinum)"
     entry = {
         "item": sku,
         "name": name or slug_to_name(final_url) or f"Costco item {sku}",
