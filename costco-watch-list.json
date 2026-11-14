@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "item": "1943308",
+      "metal": "gold",
+      "name": "1 oz Gold Bar PAMP Suisse Lady Fortuna Veriscan",
+      "productId": "4000363990",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-suisse-lady-fortuna-veriscan-new-in-assay/4000363990"
+    },
+    {
+      "item": "2053322",
+      "metal": "gold",
+      "name": "1 oz Gold Bar Argor-Heraeus",
+      "productId": "4201035275",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-argor-heraeus-new-in-assay/4201035275"
+    },
+    {
+      "item": "1999611",
+      "metal": "gold",
+      "name": "10 Gram Gold Bar Argor-Heraeus Small Craft",
+      "productId": "4000412466",
+      "url": "https://www.costco.com/p/-/10-gram-gold-bar-argor-heraeus-small-craft-new-in-assay/4000412466"
+    },
+    {
+      "item": "2052058",
+      "metal": "gold",
+      "name": "25 Gram PAMP Good Luck Crane Multigram Gold Bar",
+      "productId": "4201001697",
+      "url": "https://www.costco.com/p/-/25-gram-pamp-good-luck-crane-multigram-gold-bar-new-in-assay/4201001697"
+    },
+    {
+      "item": "2053316",
+      "metal": "silver",
+      "name": "1 oz Kirkland Signature Silver Bar, 5-pack",
+      "productId": "4201006741",
+      "url": "https://www.costco.com/p/-/1-oz-kirkland-signature-silver-bar,-5-pack/4201006741"
+    },
+    {
+      "item": "1909234",
+      "metal": "silver",
+      "name": "2025 1 oz American Eagle Silver Coin, 20-count",
+      "productId": "4000339858",
+      "url": "https://www.costco.com/p/-/2025-1-oz-american-eagle-silver-coin-20-count/4000339858"
+    },
+    {
+      "item": "2074205",
+      "metal": "silver",
+      "name": "2026 1 oz The Royal Mint Britannia Silver Coin, 25-count",
+      "productId": "4201023948",
+      "url": "https://www.costco.com/p/-/2026-1-oz-the-royal-mint-britannia-silver-coin-25-count/4201023948"
+    },
+    {
+      "item": "6888888",
+      "name": "1 oz Gold Bar PAMP Lunar Legends 1,000 Mile Horse (New in Assay)",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-lunar-legends-1,000-mile-horse-new-in-assay/4000375855",
+      "productId": "4000375855"
+    },
+    {
+      "item": "2051012",
+      "name": "1 oz Gold Bar PAMP Koi Fish (New In Assay)",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-koi-fish-new-in-assay/4201059265",
+      "productId": "4201059265"
+    }
+  ],
+  "updated": "2026-11-14",
+  "version": 1
+}
