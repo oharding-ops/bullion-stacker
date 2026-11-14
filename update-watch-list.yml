@@ -1,0 +1,32 @@
+name: Update Costco watch list
+
+# Weekly sitemap scan: finds new Costco bullion listings, verifies each
+# one's product page (JSON-LD ProductSchema + sku), and commits verified
+# additions to costco-watch-list.json. The Bullion Stacker app downloads
+# that file (at most once a day) and merges new items automatically.
+# Runs Saturdays ~9:00 AM ET; can also be triggered manually.
+on:
+  schedule:
+    - cron: "0 14 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Scan sitemap and verify new bullion
+        run: python3 tools/update-costco-list.py --list costco-watch-list.json
+
+      - name: Commit updated list if changed
+        run: |
+          git config user.name "bullion-stacker-bot"
+          git config user.email "bullion-stacker-bot@users.noreply.github.com"
+          git add costco-watch-list.json
+          git diff --cached --quiet || git commit -m "Add newly verified Costco bullion items"
+          git push
