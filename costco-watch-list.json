@@ -69,8 +69,92 @@
       "metal": "gold",
       "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-suisse-yellowstone-cowboy-new-in-assay/4000416264",
       "productId": "4000416264"
+    },
+    {
+      "item": "1814000",
+      "name": "2024 1 oz Canada Maple Leaf Silver Coin, 25-count",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/2024-1-oz-canada-maple-leaf-silver-coin-25-count/4000252852",
+      "productId": "4000252852"
+    },
+    {
+      "item": "1814001",
+      "name": "2024 1 oz PAMP American Buffalo Silver Round, 20-count",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/2024-1-oz-pamp-american-buffalo-silver-round-20-count/4000288083",
+      "productId": "4000288083"
+    },
+    {
+      "item": "1898080",
+      "name": "1 oz PAMP Lady of Liberty Silver Bar, 20-count",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/1-oz-pamp-lady-of-liberty-silver-bar-20-count/4000327740",
+      "productId": "4000327740"
+    },
+    {
+      "item": "1930004",
+      "name": "1 oz Gold Bar PAMP Liberty Bell",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-liberty-bell/4000353698",
+      "productId": "4000353698"
+    },
+    {
+      "item": "8888808",
+      "name": "1 oz Gold Bar PAMP Suisse Good Luck Yellow Dragon (New in Assay)",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-suisse-good-luck-yellow-dragon-new-in-assay/4000375430",
+      "productId": "4000375430"
+    },
+    {
+      "item": "1957979",
+      "name": "100 Gram Gold Bar Rand Refinery (New in Assay)",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/100-gram-gold-bar-rand-refinery-new-in-assay/4000377793",
+      "productId": "4000377793"
+    },
+    {
+      "item": "7888888",
+      "name": "10 oz Silver Bar PAMP Lunar Legends 1,000 Mile Horse",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/10-oz-silver-bar-pamp-lunar-legends-1000-mile-horse/4000387958",
+      "productId": "4000387958"
+    },
+    {
+      "item": "1952157",
+      "name": "10 oz Silver Bar PAMP Good Luck Dragon",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/10-oz-silver-bar-pamp-good-luck-dragon/4000389891",
+      "productId": "4000389891"
+    },
+    {
+      "item": "1992628",
+      "name": "25 Gram PAMP Suisse Lunar Legends 1,000 Mile Horse Multigram Gold Bar (New in Assay)",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/25-gram-pamp-suisse-lunar-legends-1000-mile-horse-multigram-gold-bar-new-in-assay/4000407737",
+      "productId": "4000407737"
+    },
+    {
+      "item": "2026477",
+      "name": "2026 1 oz Canadian Maple Leaf Silver Coin, 25-count",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/2026-1-oz-canadian-maple-leaf-silver-coin-25-count/4000430528",
+      "productId": "4000430528"
+    },
+    {
+      "item": "2053309",
+      "name": "1 oz Gold Bar PAMP Liberty at 250",
+      "metal": "gold",
+      "url": "https://www.costco.com/p/-/1-oz-gold-bar-pamp-liberty-at-250/4201011794",
+      "productId": "4201011794"
+    },
+    {
+      "item": "2081210",
+      "name": "10 oz 2026 Sunshine Minting America 250 Buffalo Silver Round",
+      "metal": "silver",
+      "url": "https://www.costco.com/p/-/10-oz-2026-sunshine-minting-america-250-buffalo-silver-round/4201031673",
+      "productId": "4201031673"
     }
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-21",
   "version": 1
 }
